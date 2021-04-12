@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Electron App</title>
+        <link rel="stylesheet" href="../styles/index.css">
+        <script src="https://kit.fontawesome.com/82f379d12f.js" crossorigin="anonymous"></script>
+    </head>
+    <body id="home">
+        <div class="blur" id="navbar">
+            <div id="nav-buttons">
+                <div id="minimize-div">
+                    <button class="nav-button" id="minimize"><i class="fas fa-window-minimize"></i></button>
+                </div>
+                <div id="maximize-div">
+                    <button class="nav-button" id="maximize"><i class="far fa-window-maximize fa-sm"></i></button>
+                </div>
+                <div id="close-div">
+                    <button class="nav-button" id="close"><i class="fas fa-times fa-lg red-highlight"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="login-box">
+                <h1>Sign In</h1>
+                <input id="username" placeholder="Username or Email" class="input"/>
+                <input id="password" type="password" placeholder="Password" class="input"/>
+                <div id="remember-div">
+                    <input id="remember-me" type="checkbox">
+                    <label for="remember-me">Remember Me</p>
+                </div>
+                <div id="submit">
+                    <button id="login" class="button">Sign In</button>
+                </div>
+                <div>
+                    <p class="none" id="login-message">Test</p>
+                </div>
+            </div>
+                <!-- <h1>Login</h1>
+                <label for="username">username</label>
+                <input id="username" name="username"/>
+                <label for="password">password</label>
+                <input id="password" type="password"/>
+        
+                <button id="login">Login</button> -->
+        </div>
+        <script type="text/javascript" src="../scripts/index.js"></script>
+    </body>
+</html>

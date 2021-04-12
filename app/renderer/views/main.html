@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Electron App</title>
+        <link rel="stylesheet" href="../styles/index.css">
+        <script src="https://kit.fontawesome.com/82f379d12f.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="blur" id="navbar">
+            <div id="nav-buttons">
+                <div id="minimize-div">
+                    <button class="nav-button" id="minimize"><i class="fas fa-window-minimize"></i></button>
+                </div>
+                <div id="maximize-div">
+                    <button class="nav-button" id="maximize"><i class="far fa-window-maximize fa-sm"></i></button>
+                </div>
+                <div id="close-div">
+                    <button class="nav-button" id="close"><i class="fas fa-times fa-lg red-highlight"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div id="mod-list-container">
+                <h1>Mods</h1>
+                <hr style="width: 90%;">
+                <ul id="mod-list">
+                </ul>
+            </div>
+            <div>
+                <h1 id="username-header">Welcome</h1>
+                <button id="launch" class="button">Launch</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="../scripts/main.js"></script>
+    </body>
+</html>
