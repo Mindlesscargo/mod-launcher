@@ -3,6 +3,7 @@ Custom Minecraft launcher designed to automatically install and update mods base
 
 You can find the json to upload to your website here: [modlauncher-info](https://github.com/Mindlesscargo/modlauncher-info)
 
+
 **If you want to test the application:**
 ```console
 > npm i
