@@ -9,6 +9,7 @@ You can find the json to upload to your website here: [modlauncher-info](https:/
 > npm i
 > npm start
 ```
+
 **If you want to build the application for Windows:**
 ```console
 > npm i
@@ -16,6 +17,7 @@ You can find the json to upload to your website here: [modlauncher-info](https:/
 > npm i electron-packager -g
 > electron-packager <sourcedir> <appname> --platform=win32 --arch=x64
 ```
+
 
 
 **Pictures of the UI:**
